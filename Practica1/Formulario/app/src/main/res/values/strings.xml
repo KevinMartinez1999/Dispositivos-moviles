@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="title">Formulario</string>
+    <string name="error_field">*Campo Obligatorio</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="repeatpassword">Repetir Contraseña</string>
+    <string name="save">Guardar</string>
+    <string name="info">Información del Usuario</string>
+    <string name="error">Las contraseñas no coinciden</string>
+    <string name="empty">Introduce todos los Campos</string>
+    <string name="genre">Género</string>
+    <string name="female">Femenino</string>
+    <string name="male">Masculino</string>
+    <string name="hobbies">Pasatiempos</string>
+    <string name="Sport">Deporte</string>
+    <string name="Read">Leer</string>
+    <string name="Eat">Comer</string>
+    <string name="Dance">Bailar</string>
+    <string name="Datebirth">Fecha de Nacimiento</string>
+    <string name="name">Nombre Completo</string>
+    <string name="city">Ciudad:</string>
+    <string-array name="city_list">
+        <item>Florencia</item>
+        <item>Medellín</item>
+        <item>Cali</item>
+        <item>Barranquilla</item>
+        <item>Bogotá</item>
+    </string-array>
+
+</resources>
