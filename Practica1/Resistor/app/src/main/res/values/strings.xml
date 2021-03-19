@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Resistor</string>
+    <string name="title">Cálculo de Resistencias</string>
+    <string name="error">Esta mierda!</string>
+    <string name="Calc">Calcular</string>
+    <string-array name="color">
+        <item>Negro</item>
+        <item>Café</item>
+        <item>Rojo</item>
+        <item>Naranja</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Blanco</item>
+        <item>Dorado</item>
+        <item>Plateado</item>
+    </string-array>
+</resources>
