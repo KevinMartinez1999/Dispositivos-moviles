@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">Resistor</string>
+    <string name="app_name">Calculadora de Resistencias</string>
     <string name="title">Cálculo de Resistencias</string>
     <string name="error">Esta mierda!</string>
     <string name="Calc">Calcular</string>
     <string name="resultado">Resultado</string>
     <string name="textview">TextView</string>
+    <string name="Value">"La Resistencia es: "</string>
     <string-array name="color">
         <item>Negro</item>
         <item>Café</item>
