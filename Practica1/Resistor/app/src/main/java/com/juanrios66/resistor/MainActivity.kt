@@ -1,10 +1,9 @@
 package com.juanrios66.resistor
 
 import android.os.Bundle
-import android.widget.AdapterView
-import android.widget.AdapterView.OnItemSelectedListener
 import androidx.appcompat.app.AppCompatActivity
 import com.juanrios66.resistor.databinding.ActivityMainBinding
+import kotlin.math.pow
 
 
 class MainActivity : AppCompatActivity() {
@@ -16,17 +15,18 @@ class MainActivity : AppCompatActivity() {
         mainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(mainBinding.root)
 
-        val arraycolors = resources.getStringArray(R.array.color)
         val colors = resources.getIntArray(R.array.colrs)
 
-        mainBinding.buttonCalc.setOnClickListener{
-            for (num in 0..10 step 1 ){
-                if(mainBinding.spinner.selectedItem.toString() == arraycolors[num]){
-                    mainBinding.spinner.setBackgroundColor(colors[num])
-                }else{
-                }
-            }
-        }
+        mainBinding.buttonCalc.setOnClickListener {
+            val color1 = mainBinding.spinner.selectedItemId.toInt()
+            val color2 = mainBinding.spinner2.selectedItemId.toInt()
+            val color3 = mainBinding.spinner3.selectedItemId.toInt()
+            mainBinding.spinner.setBackgroundColor(colors[color1])
+            mainBinding.spinner2.setBackgroundColor(colors[color2])
+            mainBinding.spinner3.setBackgroundColor(colors[color3])
 
+            val res = ((color1.toDouble()) * 10.0 + (color2.toDouble())) * 10.0.pow(color3.toDouble())
+            mainBinding.resultado.text = "$res Ohm"
+        }
     }
 }
