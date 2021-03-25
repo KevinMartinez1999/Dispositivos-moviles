@@ -1,12 +1,16 @@
 <resources>
     <string name="app_name">Calculadora de Resistencias</string>
     <string name="title">Cálculo de Resistencias</string>
-    <string name="error">Esta mierda!</string>
     <string name="Calc">Calcular</string>
     <string name="resultado">Resultado</string>
     <string name="textview">TextView</string>
     <string name="Value">"La Resistencia es: "</string>
+    <string name="ohm">"Ohmios"</string>
+    <string name="Kohm">"Kiloohmios"</string>
+    <string name="Mohm">"Megaohmios"</string>
+    <string name="image">imagen</string>
     <string-array name="color">
+        <item>Seleccione</item>
         <item>Negro</item>
         <item>Café</item>
         <item>Rojo</item>
@@ -17,7 +21,13 @@
         <item>Violeta</item>
         <item>Gris</item>
         <item>Blanco</item>
+    </string-array>
+    <string-array name="tolerancia">
+        <item>Seleccione</item>
         <item>Dorado</item>
         <item>Plateado</item>
     </string-array>
+    <string name="error">Seleccione los colores de la Resistencia</string>
+    <string name ="Tolerancia5" >Tolerancia de: 5% </string>
+    <string name ="Tolerancia10" >Tolerancia de: 10% </string>
 </resources>

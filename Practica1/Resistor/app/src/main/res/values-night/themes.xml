@@ -6,8 +6,8 @@
         <item name="colorPrimaryVariant">#EC5E12</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#2196F3</item>
-        <item name="colorSecondaryVariant">#529ABA</item>
+        <item name="colorSecondary">#232B32</item>
+        <item name="colorSecondaryVariant">#18323E</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
