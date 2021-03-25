@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                     if (money_to == getString(R.string.cop)) {
                         mainBinding.number2.setText((num1.toFloat() * 4281.58F).toString())
                     } else if (money_to == getString(R.string.usd)) {
-                        mainBinding.number2.setText((num1.toInt() * 1.20F).toString())
+                        mainBinding.number2.setText((num1.toFloat() * 1.20F).toString())
                     } else {
                         mainBinding.number2.setText(num1)
                     }
