@@ -6,6 +6,7 @@
     <string name="usd">USD (Dólar Estadounidense)</string>
     <string name="eur">EUR (Euro)</string>
     <string name="conversor_de_monedas">Conversor de monedas</string>
+    <string name="error_value">Digíte un valor</string>
     <string-array name="moneda_list">
         <item>COP (Peso Colombiano)</item>
         <item>USD (Dólar Estadounidense)</item>

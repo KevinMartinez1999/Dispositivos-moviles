@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
             var result: String
             val res =
                 (((color1.toDouble() * 10.0) + (color2.toDouble())) * 10.0.pow(color3.toDouble()))
-            if (color1==-1 || color2==-1 || color3==-1 || color4==-1 ){
+            if (color1==-1 || color2==-1 || color3==-1){
                 Toast.makeText(this, getString(R.string.error), Toast.LENGTH_SHORT).show()
             }else{
                 when {
@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
                         result=(res / 1000000).toString().plus(" " + getString(R.string.Mohm))
                     }
                 }
-                if (color4 ==0){
+                if (color4 == 0){
                     result = result + "\n" + getString(R.string.Tolerancia5)
                 }else{
                     result = result + "\n" + getString(R.string.Tolerancia10)
