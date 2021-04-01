@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <array name="colrs">
+        <item>@android:color/primary_text_light</item>
         <item>#000000</item>
         <item>#5E3D2E</item>
         <item>#FF0000</item>
@@ -18,6 +19,9 @@
         <item>#4D228E</item>
         <item>#9B9B9B</item>
         <item>#FFFFFF</item>
+    </array>
+    <array name = "toler">
+        <item>@android:color/primary_text_light</item>
         <item>#EFB810</item>
         <item>#C0C0C0</item>
     </array>
